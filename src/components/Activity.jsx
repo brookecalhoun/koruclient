@@ -1,13 +1,13 @@
 import React from 'react'
 
-class Activity extends React.Component{
+class ProgressTracker extends React.Component{
 
     render(){
         console.log(this.props)
         return(
 
-        <div className='activity-page'>
-            <h1>Things to Do</h1>
+        <div className='progress-page'>
+            <h1>Progress Tracker</h1>
         </div>
         )
     }
@@ -15,4 +15,4 @@ class Activity extends React.Component{
    
   
 
-export default Activity
+export default ProgressTracker

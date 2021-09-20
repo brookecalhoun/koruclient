@@ -13,6 +13,7 @@
     "bootstrap": "^5.1.1",
     "draft-js": "^0.11.7",
     "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
     "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.3",
@@ -20,8 +21,10 @@
     "react-multi-carousel": "^2.6.5",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-scroll-parallax": "^2.4.0",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
+    "vanilla.js": "^0.2.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

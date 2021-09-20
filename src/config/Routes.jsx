@@ -4,13 +4,13 @@ import { Switch, Route } from 'react-router-dom';
 import JournalModel from '../models/JournalModel'
 import About from '../components/About'
 import Journal from '../components/Journal'
-import AddictionResources from '../components/Resources/AddictionResources';
-import MentalHealthResources from '../components/Resources/MentalHealthResources';
+import AddictionResources from '../components/resources/AddictionResources';
+import MentalHealthResources from '../components/resources/MentalHealthResources';
 import ProgressTracker from '../components/Progress';
 import Activity from '../components/Activity';
 import Encouragement from '../components/Encouragement';
-// import SignupPage from '../pages/SignupPage';
-// import LoginPage from '../pages/LoginPage'
+import Signup from '../components/authentication/Signup'
+import Login from '../components/authentication/Login'
 
 
 function Routes(){
@@ -34,9 +34,9 @@ function Routes(){
 
         <Route path='/encouragement' component={Encouragement} />
 
-        {/* <Route path='/signup' render={(props) => <SignupPage {...props} /> } />
+        <Route path='/signup' render={(props) => <Signup {...props} /> } />
 
-        <Route path ='/login' render={(props) => <LoginPage {...props} /> } /> */} */
+        <Route path ='/login' render={(props) => <Login {...props} /> } />
 
       </Switch>
         

@@ -9,6 +9,7 @@ class ProgressTracker extends React.Component{
         <div className='progress-page'>
             <h1>Progress Tracker</h1>
         </div>
+        
         )
     }
 }

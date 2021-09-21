@@ -10,9 +10,12 @@ function Header() {
     <div>
       <span className="inlineheader">
         <span className="headerlinks">
-          <Navbar className='header' expand="lg">
+          <Navbar className="header" expand="lg">
             <Navbar.Brand href="/">
-                <img className='small-logo'src={`${process.env.PUBLIC_URL}/images/logo.png`}/>
+              <img
+                className="small-logo"
+                src={`${process.env.PUBLIC_URL}/images/logo.png`}
+              />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

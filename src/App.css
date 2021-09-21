@@ -68,6 +68,25 @@
 }
 .life-component{
   margin-top: 5vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.life-description{
+  width: 60vh;
+  height: 70vh;
+  position: absolute;
+  background: rgba(29,106,154,0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.life-component:hover .life-description{
+  visibility: visible;
+  opacity: 1;
 }
 .life{
   margin: 0 auto;

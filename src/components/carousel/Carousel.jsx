@@ -1,6 +1,8 @@
 import Slider from 'react-slick';
 import React from 'react'
 import Life from './Life'
+import Growth from './Growth'
+import Movement from './Movement'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -20,19 +22,10 @@ var settings = {
         <Life />
       </div>
       <div>
-        <h3>2</h3>
+        <Growth />
       </div>
       <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
+        <Movement />
       </div>
     </Slider>
   );

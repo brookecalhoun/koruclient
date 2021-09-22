@@ -41,12 +41,14 @@
   position: relative;
   background: #f0f7ce;
   opacity: 0.9;
-  width: 46vh;
-  height: 4vh;
-  margin-left: 120vh;
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
   top: -90vh;
 }
-
+.tagline{
+  letter-spacing: 4px;
+}
 .about-page{
   min-height: 150vh;
   background: #94a386;
@@ -69,30 +71,104 @@
 .life-component{
   margin-top: 5vh;
   position: relative;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 .life-description{
+  transition: .5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
   width: 60vh;
   height: 70vh;
   position: absolute;
-  background: rgba(29,106,154,0.72);
   color: #fff;
-  visibility: hidden;
   opacity: 0;
-  transition: opacity .2s, visibility .2s;
 }
-.life-component:hover .life-description{
-  visibility: visible;
-  opacity: 1;
+.life-words{
+  letter-spacing: 4px;
 }
 .life{
   margin: 0 auto;
   width: auto;
   height: 70vh;
   padding: 5vh;
+  opacity: 0.8;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.life-component:hover .life{
+  opacity: 0.3;
+}
+.life-component:hover .life-description{
+  opacity: 1;
+}
+.growth-component{
+  margin-top: 5vh;
+  position: relative;
+}
+.growth-description{
+  transition: .5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  width: 60vh;
+  height: 70vh;
+  position: absolute;
+  color: #fff;
+  opacity: 0;
+}
+.growth-words{
+  letter-spacing: 4px;
+}
+.growth{
+  margin: 0 auto;
+  width: auto;
+  height: 70vh;
+  padding: 5vh;
+  opacity: 0.6;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.growth-component:hover .growth{
+  opacity: 0.3;
+}
+.growth-component:hover .growth-description{
+  opacity: 1;
+}
+.movement-component{
+  margin-top: 5vh;
+  position: relative;
+}
+.movement-description{
+  transition: .5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  width: 60vh;
+  height: 70vh;
+  position: absolute;
+  color: #fff;
+  opacity: 0;
+}
+.movement-words{
+  letter-spacing: 4px;
+}
+.movement{
+  margin: 0 auto;
+  width: auto;
+  height: 70vh;
+  padding: 5vh;
+  opacity: 0.6;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.movement-component:hover .movement{
+  opacity: 0.3;
+}
+.movement-component:hover .movement-description{
+  opacity: 1;
 }
 .about-description{
   word-wrap: break-word;

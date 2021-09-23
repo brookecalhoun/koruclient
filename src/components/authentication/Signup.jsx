@@ -31,7 +31,7 @@ class Signup extends React.Component {
     this.setState({ password: event.target.value });
   };
 
-  render() {
+  render(props) {
     return (
       <form onSubmit={this.onSubmit} className="sign-up-form-css">
         <label for="username"><h2>Username:</h2></label>

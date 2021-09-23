@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 .App{
   text-align: center;
 }
@@ -183,5 +184,199 @@
   text-align: left;
   width: 100vh;
   padding: 1vh;
+}
+.journal-index{
+  min-height: 150vh;
+  background: url('../src/assets/journal.png');
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.entry-form{
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(160, 190, 125, 0.7);
+  padding: 10px;
+}
+.journal-title{
+  color: #F0F7CE;
+  letter-spacing: 30px;
+  font-size: 60px;
+}
+.date{
+  padding-left:20px;
+  padding-top:20px;
+  text-align: left;
+  color: #5c5f4e;
+}
+.journal-date{
+  font-size: 50px;
+  color: #4c5033;
+}
+.entry{
+  padding-left:20px;
+  padding-top:20px;
+  text-align: left;
+  color: #5c5f4e;
+}
+.journal-entry{
+  color: #4c5033;
+  display: absolute;
+  word-wrap: break-word;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.btn-primary{
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+.date-bg{
+  background: #F0F7CE;
+}
+.delete-image{
+  margin: 0 auto;
+  width: 20vh;
+  padding: 3px;
+}
+.delete-image:hover{
+  cursor: pointer;
+  width: 25vh;
+  transition: 0.5s;  
+}
+
+.add-btn{
+  font-size: 30px;
+  width: 20vh;
+  height: 20vh;
+  padding: 10px;
+  border-radius: 20%;
+  background: #345705;
+  border: 2px solid #98c415;
+  color: #F0F7CE;
+  transition: 0.5s;  
+}
+.add-btn:hover{
+  cursor:pointer;
+  background: #8a9c4a;
+}
+.input-entry-field{
+  word-wrap: break-word;
+  height: 30vh;
+  width: 60%;;
+  text-align: left;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  background:rgba(160, 190, 125, 0.7);
+  color: #5c5f4e;
+  font-size: 20px;
+}
+.input-date-field{
+  background:rgba(160, 190, 125, 0.7);
+  color: #5c5f4e;
+  text-shadow: rgba(31, 59, 15, 0.5);
+  font-size: 20px;
+  text-align: center;
+}
+.create-page{
+  /* font-family: 'Indie Flower', 'cursive'; */
+  top: 50%;
+  bottom: 50%;
+  background-image: linear-gradient(to bottom, #37440c, #2e5101, #486b11, #6b8613, #a4b664, #f0f7ce);
+}
+.prompt1{
+  margin-left: 20vh;
+  text-align: left;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+}
+.prompt2{
+  margin-right: 30vh;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+  text-align: right;
+}
+.prompt3{
+  margin-left: 20vh;
+  text-align: left;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+}
+.prompt4{
+  margin-right: 30vh;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+  text-align: right;
+}
+.prompt5{
+  margin-left: 20vh;
+  text-align: left;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+}
+.prompt6{
+  margin-right: 30vh;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+  text-align: right;
+}
+.prompt7{
+  margin-left: 20vh;
+  text-align: left;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+}
+.prompt8{
+  margin-right: 30vh;
+  background: rgba(255,255,255,0.6);
+  padding: 5px;
+  text-align: right;
+}
+.create-entry-div{
+  padding: 5px;
+  width: 35%;
+  margin: 0 auto;
+  color: #5c5f4e;
+}
+.whole-form{
+  box-shadow: 
+	0 0 0 2px #000,
+	0 0 0 3px #999,
+	0 0 0 9px rgb(139, 199, 82),
+	0 0 0 10px #666,
+	0 0 0 16px rgb(52, 122, 43),
+	0 0 0 18px rgb(60, 100, 48);
+  width: 75%;
+  height: 80vh;
+  margin: 0 auto;
+  padding-top: 40px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+}
+.jump:visited{
+  color: #F0F7CE;
+}
+.jump:hover{
+  cursor: pointer;
+  color: #5c5f4e;
+}
+.submit-button{
+  border-radius: 100%;
+  padding:1.5%;
+  background:rgba(160, 190, 125, 0.7);
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 

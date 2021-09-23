@@ -11,6 +11,7 @@ import Activity from '../components/Activity';
 import Encouragement from '../components/Encouragement';
 import Signup from '../components/authentication/Signup'
 import Login from '../components/authentication/Login'
+import JournalIndex from '../components/JournalIndex';
 
 
 function Routes(){
@@ -19,11 +20,11 @@ function Routes(){
         <Switch>
 
         <Route exact path='/' component={Homepage}/>
+
+        <Route path='/create' render={(props) => <Journal {...props} />} />
         
         <Route path='/about' component={About} />
 
-        <Route path='/journal' component={Journal} />
-        
         <Route path='/addiction-resources' component={AddictionResources} />
         
         <Route path='/mental-health-resources' component={MentalHealthResources} />
@@ -37,6 +38,8 @@ function Routes(){
         <Route path='/signup' render={(props) => <Signup {...props} /> } />
 
         <Route path ='/login' render={(props) => <Login {...props} /> } />
+
+        <Route path ='/journal' render={(props) => <JournalIndex {...props} /> } />
 
       </Switch>
         

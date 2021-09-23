@@ -2,8 +2,7 @@ import { Component } from "react";
 import JournalModel from "../models/JournalModel";
 import { Link } from "react-router-dom";
 import JournalCarousel from "../components/JournalCarousel";
-import Fade from 'react-reveal/Fade'
-
+import Fade from "react-reveal/Fade";
 
 class JournalIndex extends Component {
   state = {
@@ -47,11 +46,19 @@ class JournalIndex extends Component {
           <br />
           <br />
           <Fade left>
-          <h1 className="journal-title">journal</h1>
+            <h1 className="journal-title">journal</h1>
           </Fade>
         </div>
         <br />
+        <br />
         <div className="entry-form">
+          <div class="add-container">
+            <Link to="/create" className="add-center">
+              <div class="btn add-btn">
+                <span>add entry</span>
+              </div>
+            </Link>
+          </div>
           <div className="carousel-container">
             <JournalCarousel
               journalData={this.state.journalData}
@@ -60,9 +67,6 @@ class JournalIndex extends Component {
           </div>
           <p />
           <br />
-          <Link to="/create">
-            <button className="add-btn">add entry</button>
-          </Link>
         </div>
       </div>
     );

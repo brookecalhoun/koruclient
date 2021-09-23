@@ -41,20 +41,15 @@ class Journal extends React.Component {
         <br />
         <br />
         <h1 className="create-title"> need to journal? </h1>
-        <br />
         <h3>
           <a className="jump" href="#form">
             jump to form
           </a>
         </h3>
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="prompts">
           <div className="cloud"></div>
-          <h2>journaling prompts for you</h2>
+          <h2 className="prompts-title">journaling prompts for you</h2>
           <br />
           <br />
           <br />
@@ -145,34 +140,38 @@ class Journal extends React.Component {
           <br />
           <br />
         </div>
-        <div className="whole-form">
-          <div className="create-entry-div">
-            <h3 className="create-entry-title"> ✏ create a journal entry ✏</h3>
-          </div>
-          <form id="form" onSubmit={this.handleFormSubmit}>
-            <div className="input-date">
-              <p>date:</p>
-              <input
-                className="input-date-field"
-                type="text"
-                onChange={this.handleDateChange}
-                value={this.state.inputDate}
-              />
-            </div>
-            <div className="input-entry">
-              <p>entry:</p>
-              <textarea
-                name="text"
-                wrap="soft"
-                className="input-entry-field"
-                type="text"
-                onChange={this.handleChange}
-                value={this.state.inputEntry}
-              />
+        <div id="form" className="whole-form">
+          <div className="inputs">
+            <div className="create-entry-div">
+              <h3 className="create-entry-title"> create a journal entry</h3>
             </div>
             <br />
-            <input className="submit-button" type="submit" />
-          </form>
+            <form onSubmit={this.handleFormSubmit}>
+              <div className="input-date">
+                <p>date:</p> &nbsp;
+                <input
+                  className="input-date-field"
+                  type="text"
+                  onChange={this.handleDateChange}
+                  value={this.state.inputDate}
+                />
+              </div>
+              <div className="input-entry">
+                <p>entry:</p>
+                <textarea
+                  name="text"
+                  wrap="soft"
+                  className="input-entry-field"
+                  type="text"
+                  onChange={this.handleChange}
+                  value={this.state.inputEntry}
+                />
+              </div>
+              <br />
+              <input className="submit-button" type="submit" />
+            </form>
+            <br />
+          </div>
         </div>
         <br />
         <br />

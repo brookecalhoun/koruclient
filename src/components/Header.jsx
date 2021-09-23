@@ -22,9 +22,9 @@ class Header extends React.Component {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link href="/about">about</Nav.Link>
-                  <Nav.Link href="/progress-tracker">progress tracker</Nav.Link>
-                  <Nav.Link href="/encouragement">encouragement</Nav.Link>
-                  <Nav.Link href="/things-to-do">things to do</Nav.Link>
+                  {/* <Nav.Link href="/progress-tracker">progress tracker</Nav.Link> */}
+                  {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
+                  {/* <Nav.Link href="/things-to-do">things to do</Nav.Link> */}
                   <Nav.Link href="/journal">journal</Nav.Link>
                   <NavDropdown title="resources" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/mental-health-resources">
@@ -33,12 +33,10 @@ class Header extends React.Component {
                     <NavDropdown.Item href="/addiction-resources">
                       addiction resources
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
                   </NavDropdown>
                   <NavDropdown title="login/sign-up" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/login">login</NavDropdown.Item>
                     <NavDropdown.Item href="/signup">sign-up</NavDropdown.Item>
-                    <NavDropdown.Divider />
                   </NavDropdown>
                 </Nav>
               </Navbar.Collapse>

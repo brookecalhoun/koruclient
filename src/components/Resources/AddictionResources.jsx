@@ -90,7 +90,7 @@ class AddictionResources extends React.Component {
           onSelect={(key) => this.setState({ key })}
         >
           <Tab
-            className="all"
+            className="pop-tab"
             eventKey="population"
             title="search by population"
           >
@@ -138,6 +138,12 @@ class AddictionResources extends React.Component {
                 </a>{" "}
               </h3>{" "}
             </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           </Tab>
           <Tab eventKey="addiction" title="search by addiction">
             Profile content

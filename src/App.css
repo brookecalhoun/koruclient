@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap");
+
 .App {
   text-align: center;
 }
@@ -466,23 +467,119 @@
 }
 .ad-populations{
   text-align: left;
-  margin-left: 2%;
   margin-top: 1%;
   text-decoration: none;
 }
-/* .pop-tab{
-  background-color: #404231;
+.pop-tab{
+  min-height: 100vh;
+  background-size: 50vh;
+  /* background-color: #5C6338; */
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 50vh auto;
   margin-bottom: 100%;
   bottom: 0%;
   top: 0%;
-} */
+}
 .addiction-page{
+  color:rgba(46, 70, 32, 0.5);
+  text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50vh;
-  background-color: #5c6846;
+  background-color: #B2C181;
   min-height: 150vh;
-  background-image: url('../src/assets/resourcebg.png');
 }
+.addiction-page a:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.tab-color{
+  color:  rgba(31, 59, 15, 0.5);
+}
+.tab-color a{
+  color: rgba(31, 59, 15, 0.5);
+}
+.ad-lgbt{
+  margin-top: 3%;
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.ad-lgbt:hover{
+  background: #f0f7ce;
+  letter-spacing: 50px;
+}
+.lgbt-link{
+  color:rgba(46, 70, 32, 0.5);
+}
+.lgbt-link:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.ad-senior{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.ad-senior:hover{
+  background: #f0f7ce;
+  letter-spacing: 50px;
+}
+.senior-link{
+  color:rgba(46, 70, 32, 0.5);
+}
+.senior-link:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.ad-teen{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.ad-teen:hover{
+  background: #f0f7ce;
+  letter-spacing: 50px;
+}
+.teen-link{
+  color:rgba(46, 70, 32, 0.5);
+}
+.teen-link:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.ad-veterans{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.ad-veterans:hover{
+  background: #f0f7ce;
+  letter-spacing: 50px;
+}
+.veteran-link{
+  color:rgba(46, 70, 32, 0.5);
+}
+.veteran-link:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.ad-women{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.ad-women:hover{
+  background: #f0f7ce;
+  letter-spacing: 50px;
+}
+.women-link{
+  color:rgba(46, 70, 32, 0.5);
+}
+.women-link:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+
+
+

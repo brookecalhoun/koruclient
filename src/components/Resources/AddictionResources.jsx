@@ -76,26 +76,73 @@ class AddictionResources extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      key: "home",
+      key: "population",
     };
   }
 
   render() {
     return (
       <div className="addiction-page">
-          <h1 className='ad-title'>Addiction Resources </h1>
+        <h1 className="ad-title">Addiction Resources </h1>
         <Tabs
           id="controlled-tab-example"
           activeKey={this.state.key}
           onSelect={(key) => this.setState({ key })}
         >
-          <Tab eventKey="home" title="search by population">
-            Home content
+          <Tab
+            className="all"
+            eventKey="population"
+            title="search by population"
+          >
+            <div className="ad-populations">
+              {" "}
+              <h3 className="ad-lgbt">
+                <a
+                  href="https://www.glbthotline.org/"
+                  style={{ textDecoration: "none " }}
+                >
+                  LGBTQ
+                </a>{" "}
+              </h3>{" "}
+              <h3 className="ad-senior">
+                <a
+                  href="https://rehabnet.com/"
+                  style={{ textDecoration: "none " }}
+                >
+                  seniors
+                </a>{" "}
+              </h3>{" "}
+              <h3 className="ad-teen">
+                <a
+                  href="https://teens.drugabuse.gov/"
+                  style={{ textDecoration: "none " }}
+                >
+                  teens
+                </a>{" "}
+              </h3>{" "}
+              <h3 className="ad-veterans">
+                {" "}
+                <a
+                  href="https://www.mentalhealth.va.gov/MENTALHEALTH/substance-use/index.asp"
+                  style={{ textDecoration: "none " }}
+                >
+                  veterans{" "}
+                </a>{" "}
+              </h3>{" "}
+              <h3 className="ad-women">
+                <a
+                  href="https://womenforsobriety.org/"
+                  style={{ textDecoration: "none " }}
+                >
+                  women
+                </a>{" "}
+              </h3>{" "}
+            </div>
           </Tab>
-          <Tab eventKey="profile" title="search by addiction">
+          <Tab eventKey="addiction" title="search by addiction">
             Profile content
           </Tab>
-          <Tab eventKey="contact" title="other sources of support">
+          <Tab eventKey="support" title="other sources of support">
             Contact content
           </Tab>
         </Tabs>

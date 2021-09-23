@@ -459,4 +459,9 @@
   background: rgba(160, 190, 125, 1);
   cursor: pointer;
 }
-
+.ad-populations{
+  text-align: left;
+  margin-left: 2%;
+  margin-top: 1%;
+  text-decoration: none;
+}

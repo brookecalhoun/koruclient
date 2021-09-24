@@ -19,7 +19,7 @@ class JournalIndex extends Component {
     console.log("delete journal activated");
     const journalDataArray = this.state.journalData.filter((journalObj) => {
       console.log(journalObj._id, id);
-      if (journalObj._id == id) {
+      if (journalObj._id === id) {
         return false;
       } else {
         return true;

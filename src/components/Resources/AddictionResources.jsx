@@ -77,7 +77,7 @@ class AddictionResources extends React.Component {
               </h3>{" "}
             </div>
           </Tab>
-          <Tab className="ad-tab" eventKey="addiction" title="by addiction">
+          <Tab className="ad-tab" eventKey="anon" title="anonymous">
             <div className="by-addiction">
               <div className="alcohol">
                 <h2 className="alcohol-title">alcohol</h2>
@@ -87,7 +87,7 @@ class AddictionResources extends React.Component {
                     href="https:www.aa.org/"
                     style={{ textDecoration: "none " }}
                   >
-                    alcoholics anonymous
+                    ☞ alcoholics anonymous ☜
                   </a>
                 </h3>
               </div>
@@ -99,7 +99,7 @@ class AddictionResources extends React.Component {
                     style={{ textDecoration: "none " }}
                     className="alink-2"
                   >
-                    cocaine anonymous
+                    ☞ cocaine anonymous ☜
                   </a>
                 </h3>
               </div>
@@ -111,7 +111,7 @@ class AddictionResources extends React.Component {
                     href="https://marijuana-anonymous.org/"
                     style={{ textDecoration: "none " }}
                   >
-                    marijuana anonymous
+                    ☞ marijuana anonymous ☜
                   </a>
                 </h3>
               </div>
@@ -123,7 +123,7 @@ class AddictionResources extends React.Component {
                     href="https://www.crystalmeth.org/"
                     style={{ textDecoration: "none " }}
                   >
-                    methamphetamine anonymous
+                    ☞ methamphetamine anonymous ☜
                   </a>
                 </h3>
               </div>
@@ -135,7 +135,7 @@ class AddictionResources extends React.Component {
                     href="https://www.na.org/"
                     style={{ textDecoration: "none " }}
                   >
-                    narcotics anonymous
+                    ☞ narcotics anonymous ☜
                   </a>
                 </h3>
                 <h3 className="opiod-3">
@@ -144,7 +144,7 @@ class AddictionResources extends React.Component {
                     href="https://www.neveraloneclub.org/"
                     style={{ textDecoration: "none " }}
                   >
-                    never alone club
+                    ☞ never alone club ☜
                   </a>
                 </h3>
               </div>

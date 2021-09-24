@@ -20,7 +20,6 @@
   min-height: 100vh;
   position: relative;
 }
-
 .homepage:after {
   position: absolute;
   height: 100%;
@@ -492,6 +491,15 @@
   background-color: #B2C181;
   min-height: 150vh;
 }
+.mentalhealth-page{
+  color:rgba(46, 70, 32, 0.5);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50vh;
+  background-color: #B2C181;
+  min-height: 150vh;
+}
 .addiction-page a:visited{
   color:rgba(46, 70, 32, 0.5);
 }
@@ -679,7 +687,240 @@
 .support-link-6:visited{
   color:rgba(46, 70, 32, 0.5);
 }
+.alink-1{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-1:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-1:hover{
+  letter-spacing: 10px;
+}
+.alcohol-title{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.alink-2{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-2:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-2:hover{
+  letter-spacing: 10px;
+}
+.cocaine-title{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.alink-3{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-3:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-3:hover{
+  letter-spacing: 10px;
+}
+.marijuana-title{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.alink-4{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-4:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-4:hover{
+  letter-spacing: 10px;
+}
+.methamphetamine-title{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.alink-5{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-5:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-5:hover{
+  letter-spacing: 10px;
+}
+.alink-6{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-6:visited{
+  color:rgba(46, 70, 32, 0.5);
+}
+.alink-6:hover{
+  letter-spacing: 10px;
+}
+.opiod-title{
+  background: #f0f7cea6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+.apps{
+  overflow: hidden;
+  display: flex;
+  align-content: baseline;
+  flex-wrap: wrap;
+}
+.app-tab img{
+  float: left;
+  position: relative;
+  width: 50vh;
+}
+.app-tab img:hover{
+  float: left;
+  position: relative;
+}
+.mindshift-name{
+  opacity: 0;
+}
+.mindshift-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.mindshift-name {
+  letter-spacing: 4px;
+}
 
+.mindshift:hover .mindshift-link {
+  opacity: 0.3;
+}
+.mindshift:hover .mindshift-name {
+  opacity: 1;
+}
 
+.calm-name{
+  opacity: 0;
+}
+.calm-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.calm-name {
+  letter-spacing: 4px;
+}
 
+.calm:hover .calm-link {
+  opacity: 0.3;
+}
+.calm:hover .calm-name {
+  opacity: 1;
+}
+
+.betterhelp-name{
+  opacity: 0;
+}
+.betterhelp-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.betterhelp-name {
+  letter-spacing: 4px;
+}
+
+.betterhelp:hover .betterhelp-link {
+  opacity: 0.3;
+}
+.betterhelp:hover .betterhelp-name {
+  opacity: 1;
+}
+
+.headspace-name{
+  opacity: 0;
+}
+.headspace-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.headspace-name {
+  letter-spacing: 4px;
+}
+
+.headspace:hover .headspace-link {
+  opacity: 0.3;
+}
+.headspace:hover .headspace-name {
+  opacity: 1;
+}
+
+.nomo-name{
+  opacity: 0;
+}
+.nomo-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.nomo-name {
+  letter-spacing: 4px;
+}
+
+.nomo:hover .nomo-link {
+  opacity: 0.3;
+}
+.nomo:hover .nomo-name {
+  opacity: 1;
+}
+
+.talkspace-name{
+  opacity: 0;
+}
+.talkspace-name {
+  font-size: 3vh;
+  transition: 0.5s ease;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+}
+.talkspace-name {
+  letter-spacing: 4px;
+}
+
+.talkspace:hover .talkspace-link {
+  opacity: 0.3;
+}
+.talkspace:hover .talkspace-name {
+  opacity: 1;
+}
 

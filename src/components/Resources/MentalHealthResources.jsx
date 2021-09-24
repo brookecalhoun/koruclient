@@ -2,7 +2,7 @@ import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
-class AddictionResources extends React.Component {
+class MentalHealthResources extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
@@ -258,4 +258,4 @@ class AddictionResources extends React.Component {
   }
 }
 
-export default AddictionResources;
+export default MentalHealthResources;

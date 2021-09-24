@@ -2,7 +2,6 @@ import { Component } from "react";
 import JournalModel from "../models/JournalModel";
 import { Link } from "react-router-dom";
 import JournalCarousel from "../components/JournalCarousel";
-import Fade from "react-reveal/Fade";
 
 class JournalIndex extends Component {
   state = {
@@ -45,9 +44,7 @@ class JournalIndex extends Component {
           <br />
           <br />
           <br />
-          <Fade left>
             <h1 className="journal-title">journal</h1>
-          </Fade>
         </div>
         <br />
         <br />

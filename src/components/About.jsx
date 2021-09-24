@@ -27,7 +27,6 @@
 
 // You can live edit this code below the import statements
 import React from "react";
-import Fade from "react-reveal/Fade";
 import Carousel from "./carousel/Carousel";
 
 class About extends React.Component {
@@ -35,10 +34,7 @@ class About extends React.Component {
     return (
       <div className="about-page">
         <div className="about-bg"></div>
-        <Fade left>
           <h1 className="about">what is the Koru? </h1>
-        </Fade>
-        <Fade right>
           <div className="about-div">
             <p className="about-description">
               In Maori culture, the Koru is a spiral resembling an unfurling
@@ -47,15 +43,12 @@ class About extends React.Component {
               growth and regeneration.
             </p>
           </div>
-        </Fade>
-        <Fade left>
           <div className="about-carousel">
             <Carousel />
             <br />
             <br />
             <br />
           </div>
-        </Fade>
       </div>
     );
   }

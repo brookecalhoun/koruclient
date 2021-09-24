@@ -38,12 +38,12 @@ class JournalCarousel extends React.Component {
     return journalJSX;
   };
   render() {
-    if (this.state.redirect === true) {
+    if (this.state.redirect === true || !this.props.journalData) {
       return <Redirect to="/journal" />;
     }
-    if (this.state.redirect) {
-      return <Redirect to={this.state.redirect} />;
-    }
+    // if (this.state.redirect) {
+    //   return <Redirect to={this.state.redirect} />;
+    // }
     const settings = {
       dots: true,
       infinite: true,

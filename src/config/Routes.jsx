@@ -4,8 +4,8 @@ import { Switch, Route } from 'react-router-dom';
 import JournalModel from '../models/JournalModel'
 import About from '../components/About'
 import Journal from '../components/Journal'
-import AddictionResources from '../components/resources/AddictionResources';
-import MentalHealthResources from '../components/resources/MentalHealthResources';
+import AddictionResources from '../components/AddictionResources';
+import MentalHealthResources from '../components/MentalHealthResources';
 import ProgressTracker from '../components/Progress';
 import Activity from '../components/Activity';
 import Encouragement from '../components/Encouragement';

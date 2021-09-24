@@ -98,10 +98,13 @@ class AddictionResources extends React.Component {
                 </a>{" "}
                 <p className='talkspace-name'>talkspace</p>
               </h3>{" "}
-
             </div>
           </Tab>
-          <Tab className="ad-tab" eventKey="anon" title="anonymous">
+
+
+
+
+          {/* <Tab className="book-tab" eventKey="anon" title="anonymous">
             <div className="by-addiction">
               <div className="alcohol">
                 <h2 className="alcohol-title">alcohol</h2>
@@ -248,7 +251,7 @@ class AddictionResources extends React.Component {
               </h3>{" "}
               <br />
             </div>
-          </Tab>
+          </Tab> */}
         </Tabs>
       </div>
     );

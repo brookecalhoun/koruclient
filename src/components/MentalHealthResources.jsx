@@ -33,6 +33,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/mindshift.png`}
                     className="mindshift-link"
+                    alt='mindshift'
                   />
                 <p className='mindshift-name'>mindshift</p>
                 </a>{" "}
@@ -46,6 +47,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/calm.png`}
                     className="calm-link"
+                    alt='calm'
                   />
                   <p className='calm-name'>calm</p>
                 </a>{" "}
@@ -58,6 +60,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/betterhelp.png`}
                     className="betterhelp-link"
+                    alt='betterhelp'
                   />
                   <p className='betterhelp-name'>betterhelp</p>
                 </a>{" "}
@@ -70,6 +73,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/headspace.png`}
                     className="headspace-link"
+                    alt='headspace'
                   />
                   <p className='headspace-name'>headspace</p>
                 </a>{" "}
@@ -82,6 +86,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/nomo.png`}
                     className="nomo-link"
+                    alt='nomo'
                   />
                   <p className='nomo-name'>nomo</p>
                 </a>{" "}
@@ -94,6 +99,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/talkspace.png`}
                     className="talkspace-link"
+                    alt='talkspace'
                   />
                 </a>{" "}
                 <p className='talkspace-name'>talkspace</p>

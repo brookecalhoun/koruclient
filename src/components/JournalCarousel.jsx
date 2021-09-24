@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import React from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import axios from "axios";
 
 class JournalCarousel extends React.Component {
@@ -27,6 +27,7 @@ class JournalCarousel extends React.Component {
                 src={`${process.env.PUBLIC_URL}/images/trash.png`}
                 className="delete-image"
                 onClick={() => this.handleDelete(journalObj._id)}
+                alt='trash'
               />
               <figcaption>delete entry</figcaption>
             </figure>

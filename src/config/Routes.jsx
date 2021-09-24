@@ -1,7 +1,6 @@
 import React from 'react';
 import Homepage from '../components/Homepage';
 import { Switch, Route } from 'react-router-dom';
-import JournalModel from '../models/JournalModel'
 import About from '../components/About'
 import Journal from '../components/Journal'
 import AddictionResources from '../components/AddictionResources';

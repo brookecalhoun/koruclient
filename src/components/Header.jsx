@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Dropdown from "react-bootstrap/Dropdown";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -16,6 +14,7 @@ class Header extends React.Component {
                 <img
                   className="small-logo"
                   src={`${process.env.PUBLIC_URL}/images/logo.png`}
+                  alt='logo'
                 />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

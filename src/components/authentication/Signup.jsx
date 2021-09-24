@@ -9,7 +9,7 @@ class Signup extends React.Component {
 
   onSubmit = (event) => {
       event.preventDefault();
-      axios.post('https://koru-server.herokuapp.com/signup', {
+      axios.post(`${process.env.REACT_APP_SERVERURL}/api/journal`, {
           username: this.state.username,
           password: this.state.password
         })

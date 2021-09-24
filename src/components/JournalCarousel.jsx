@@ -7,7 +7,7 @@ class JournalCarousel extends React.Component {
   state = { redirect: null };
 
   handleDelete = (id) => {
-    axios.delete(`https://koru-server.herokuapp.com/api/journal/${id}`).then(() => {
+    axios.delete(`${process.env.REACT_APP_SERVERURL}/api/journal/${id}`).then(() => {
       this.props.deleteJournal(id);
     });
   };

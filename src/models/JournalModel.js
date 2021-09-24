@@ -1,4 +1,4 @@
-const url = 'https://koru-server.herokuapp.com/api/journal';
+const url = `${process.env.REACT_APP_SERVERURL}/api/journal`;
 //store logic to make api calls (fetch/axios here)
 class JournalModel {
     static all() {

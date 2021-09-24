@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap");
 *{
   font-family: 'Hahmlet';
@@ -786,10 +785,8 @@
   float: left;
   position: relative;
 }
-.mindshift-name{
-  opacity: 0;
-}
 .mindshift-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -797,8 +794,6 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.mindshift-name {
   letter-spacing: 4px;
 }
 
@@ -808,11 +803,8 @@
 .mindshift:hover .mindshift-name {
   opacity: 1;
 }
-
-.calm-name{
-  opacity: 0;
-}
 .calm-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -820,22 +812,16 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.calm-name {
   letter-spacing: 4px;
 }
-
 .calm:hover .calm-link {
   opacity: 0.3;
 }
 .calm:hover .calm-name {
   opacity: 1;
 }
-
-.betterhelp-name{
-  opacity: 0;
-}
 .betterhelp-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -843,22 +829,16 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.betterhelp-name {
   letter-spacing: 4px;
 }
-
 .betterhelp:hover .betterhelp-link {
   opacity: 0.3;
 }
 .betterhelp:hover .betterhelp-name {
   opacity: 1;
 }
-
-.headspace-name{
-  opacity: 0;
-}
 .headspace-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -866,22 +846,16 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.headspace-name {
   letter-spacing: 4px;
 }
-
 .headspace:hover .headspace-link {
   opacity: 0.3;
 }
 .headspace:hover .headspace-name {
   opacity: 1;
 }
-
-.nomo-name{
-  opacity: 0;
-}
 .nomo-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -889,22 +863,16 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.nomo-name {
   letter-spacing: 4px;
 }
-
 .nomo:hover .nomo-link {
   opacity: 0.3;
 }
 .nomo:hover .nomo-name {
   opacity: 1;
 }
-
-.talkspace-name{
-  opacity: 0;
-}
 .talkspace-name {
+  opacity: 0;
   font-size: 3vh;
   transition: 0.5s ease;
   top: 40%;
@@ -912,15 +880,35 @@
   text-align: center;
   color: #fff;
   opacity: 0;
-}
-.talkspace-name {
   letter-spacing: 4px;
 }
-
 .talkspace:hover .talkspace-link {
   opacity: 0.3;
 }
 .talkspace:hover .talkspace-name {
   opacity: 1;
 }
+.books{
+  overflow: hidden;
+  display: flex;
+  align-content: baseline;
+  flex-wrap: wrap;
+}
+.book-tab img{
+  float: left;
+  position: relative;
+  width: 30vh;
+  margin-left: 10vh;
+  margin-top: 5vh;
+}
+.book-tab img:hover{
+  float: left;
+  position: relative;
+} 
+.thebody:hover .thebody-link {
+  opacity: 0.3;
+}
+.thebody:hover .thebody-name {
+  opacity: 1;
+} 
 

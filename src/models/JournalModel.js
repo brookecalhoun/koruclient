@@ -1,4 +1,4 @@
-const url = 'http://localhost:4000/api/journal';
+const url = 'https://koru-server.herokuapp.com/api/journal';
 //store logic to make api calls (fetch/axios here)
 class JournalModel {
     static all() {

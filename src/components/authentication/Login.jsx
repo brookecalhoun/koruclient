@@ -9,7 +9,7 @@ class Login extends React.Component {
 
   onSubmit = (event) => {
     event.preventDefault()
-    axios.post('http://localhost:4000/login', {
+    axios.post('https://koru-server.herokuapp.com/login', {
         username: this.state.username,
         password: this.state.password
       })

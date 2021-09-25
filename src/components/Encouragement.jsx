@@ -1,8 +1,7 @@
-
 import React from "react";
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Card from '../components/Card';
+import Card from "../components/Card";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -23,18 +22,20 @@ export default function Encouragement() {
   const classes = useStyles();
 
   return (
-    <Grid
-      container
-      spacing={0}
-      direction="column"
-      alignItems="center"
-      justify="center"
-      className={classes.root}
-    >
-      <h2 className={classes.heading}>Random Quote Generator</h2>
-      <Grid item md={8} sm={8} xs={10}>
-        <Card />
+    <div>
+      <Grid
+        id="quote-page"
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justify="center"
+        className={classes.root}
+      >
+        <Grid item md={8} sm={8} xs={10}>
+          <Card />
+        </Grid>
       </Grid>
-    </Grid>
+    </div>
   );
 }

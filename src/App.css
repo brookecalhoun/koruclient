@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap");
-*{
-  font-family: 'Hahmlet';
+* {
+  font-family: "Hahmlet";
 }
 .App {
   text-align: center;
@@ -14,11 +14,11 @@
   background: #f0f7ce;
   font-size: 12px;
 }
-.inlineheader a{
-  color:rgba(46, 70, 32, 0.7);
+.inlineheader a {
+  color: rgba(46, 70, 32, 0.7);
 }
-.inlineheader a:hover{
-  color:rgba(46, 70, 32, 1);
+.inlineheader a:hover {
+  color: rgba(46, 70, 32, 1);
 }
 .homepage {
   min-height: 100vh;
@@ -251,15 +251,54 @@
 .date-bg {
   background: #f0f7ce;
 }
+.trash {
+  opacity: 0.8;
+}
 .delete-image {
   margin: 0 auto;
   width: 10vh;
   padding: 3px;
+  opacity: 0.5;
 }
 .delete-image:hover {
   cursor: pointer;
-  width: 15vh;
-  transition: 0.5s;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 .add-btn {
   color: #f0f7ce;
@@ -333,7 +372,6 @@
   color: #f0f7ce;
 }
 .create-page {
-  font-family: "Hahmlet", serif;
   top: 50%;
   bottom: 50%;
   background-image: url("assets/journalbg.png");
@@ -472,15 +510,14 @@
   cursor: pointer;
   transition: 0.2s;
 }
-.ad-populations{
+.ad-populations {
   text-align: left;
   margin-top: 1%;
   text-decoration: none;
 }
-.pop-tab{
+.pop-tab {
   min-height: 100vh;
   background-size: 50vh;
-  /* background-color: #5C6338; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50vh auto;
@@ -488,325 +525,325 @@
   bottom: 0%;
   top: 0%;
 }
-.addiction-page{
-  color:rgba(46, 70, 32, 0.5);
+.addiction-page {
+  color: rgba(46, 70, 32, 0.5);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50vh;
-  background-color: #B2C181;
+  background-color: #b2c181;
   min-height: 150vh;
 }
-.mentalhealth-page{
-  color:rgba(46, 70, 32, 0.5);
+.mentalhealth-page {
+  color: rgba(46, 70, 32, 0.5);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50vh;
-  background-color: #B2C181;
+  background-color: #b2c181;
   min-height: 150vh;
 }
-.addiction-page a:visited{
-  color:rgba(46, 70, 32, 0.5);
+.addiction-page a:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.tab-color{
-  color:  rgba(31, 59, 15, 0.5);
-}
-.tab-color a{
+.tab-color {
   color: rgba(31, 59, 15, 0.5);
 }
-.ad-lgbt{
+.tab-color a {
+  color: rgba(31, 59, 15, 0.5);
+}
+.ad-lgbt {
   margin-top: 3%;
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.ad-lgbt:hover{
+.ad-lgbt:hover {
   background: #f0f7ce;
   letter-spacing: 50px;
   transition: 0.5s;
 }
-.lgbt-link{
-  color:rgba(46, 70, 32, 0.5);
+.lgbt-link {
+  color: rgba(46, 70, 32, 0.5);
 }
-.lgbt-link:visited{
-  color:rgba(46, 70, 32, 0.5);
+.lgbt-link:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.ad-senior{
+.ad-senior {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.ad-senior:hover{
+.ad-senior:hover {
   background: #f0f7ce;
   letter-spacing: 50px;
   transition: 0.5s;
 }
-.senior-link{
-  color:rgba(46, 70, 32, 0.5);
+.senior-link {
+  color: rgba(46, 70, 32, 0.5);
 }
-.senior-link:visited{
-  color:rgba(46, 70, 32, 0.5);
+.senior-link:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.ad-teen{
+.ad-teen {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.ad-teen:hover{
+.ad-teen:hover {
   background: #f0f7ce;
   letter-spacing: 50px;
   transition: 0.5s;
 }
-.teen-link{
-  color:rgba(46, 70, 32, 0.5);
+.teen-link {
+  color: rgba(46, 70, 32, 0.5);
 }
-.teen-link:visited{
-  color:rgba(46, 70, 32, 0.5);
+.teen-link:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.ad-veterans{
+.ad-veterans {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.ad-veterans:hover{
+.ad-veterans:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 50px;
 }
-.veteran-link{
-  color:rgba(46, 70, 32, 0.5);
+.veteran-link {
+  color: rgba(46, 70, 32, 0.5);
 }
-.veteran-link:visited{
-  color:rgba(46, 70, 32, 0.5);
+.veteran-link:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.ad-women{
+.ad-women {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.ad-women:hover{
+.ad-women:hover {
   background: #f0f7ce;
   letter-spacing: 50px;
   transition: 0.5s;
 }
-.women-link{
-  color:rgba(46, 70, 32, 0.5);
+.women-link {
+  color: rgba(46, 70, 32, 0.5);
 }
-.women-link:visited{
-  color:rgba(46, 70, 32, 0.5);
+.women-link:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-1{
+.sup-1 {
   margin-top: 3%;
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-1:hover{
+.sup-1:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-1{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-1 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-1:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-1:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-2{
+.sup-2 {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-2:hover{
+.sup-2:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-2{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-2 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-2:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-2:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-3{
+.sup-3 {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-3:hover{
+.sup-3:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-3{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-3 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-3:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-3:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-4{
+.sup-4 {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-4:hover{
+.sup-4:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-4{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-4 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-4:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-4:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-5{
+.sup-5 {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-5:hover{
+.sup-5:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-5{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-5 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-5:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-5:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.sup-6{
+.sup-6 {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.sup-6:hover{
+.sup-6:hover {
   background: #f0f7ce;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.support-link-6{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-6 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.support-link-6:visited{
-  color:rgba(46, 70, 32, 0.5);
+.support-link-6:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-1{
-  color:rgba(46, 70, 32, 0.5);
+.alink-1 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-1:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-1:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-1:hover{
+.alink-1:hover {
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.alcohol-title{
+.alcohol-title {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.alink-2{
-  color:rgba(46, 70, 32, 0.5);
+.alink-2 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-2:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-2:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-2:hover{
+.alink-2:hover {
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.cocaine-title{
+.cocaine-title {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.alink-3{
-  color:rgba(46, 70, 32, 0.5);
+.alink-3 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-3:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-3:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-3:hover{
+.alink-3:hover {
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.marijuana-title{
+.marijuana-title {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.alink-4{
-  color:rgba(46, 70, 32, 0.5);
+.alink-4 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-4:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-4:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-4:hover{
+.alink-4:hover {
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.methamphetamine-title{
+.methamphetamine-title {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.alink-5{
-  color:rgba(46, 70, 32, 0.5);
+.alink-5 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-5:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-5:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-5:hover{
+.alink-5:hover {
   transition: 0.5s;
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.alink-6{
-  color:rgba(46, 70, 32, 0.5);
+.alink-6 {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-6:visited{
-  color:rgba(46, 70, 32, 0.5);
+.alink-6:visited {
+  color: rgba(46, 70, 32, 0.5);
 }
-.alink-6:hover{
+.alink-6:hover {
   transition: 0.5s;
   letter-spacing: 10px;
 }
-.opiod-title{
+.opiod-title {
   background: #f0f7cea6;
   width: 100%;
   padding: 12px;
   text-align: center;
 }
-.apps{
+.apps {
   overflow: hidden;
   display: flex;
   align-content: baseline;
   flex-wrap: wrap;
 }
-.app-tab img{
+.app-tab img {
   float: left;
   position: relative;
   width: 50vh;
 }
-.app-tab img:hover{
+.app-tab img:hover {
   float: left;
   position: relative;
 }
@@ -913,23 +950,23 @@
 .talkspace:hover .talkspace-name {
   opacity: 1;
 }
-.books{
+.books {
   overflow: hidden;
   display: flex;
   align-content: baseline;
   flex-wrap: wrap;
 }
-.book-tab img{
+.book-tab img {
   float: left;
   position: relative;
   width: 30vh;
   margin-left: 10vh;
   margin-top: 5vh;
 }
-.book-tab img:hover{
+.book-tab img:hover {
   float: left;
   position: relative;
-} 
+}
 .thebody:hover .thebody-link {
   border: 10px solid #f0f7ce;
   transition: 0.5s;
@@ -946,7 +983,7 @@
   border: 10px solid #f0f7ce;
   transition: 0.5s;
 }
-.sites{
+.sites {
   flex-wrap: wrap;
   margin: 0 auto;
   display: flex;
@@ -959,24 +996,56 @@
   padding-top: 35vh;
   padding-bottom: 10vh;
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 
-	0 0 0 2px #000,
-	0 0 0 3px #999,
-	0 0 0 9px #fa0,
-	0 0 0 10px #666,
-	0 0 0 16px #fd0,
-	0 0 0 18px #000;
+  box-shadow: 0 0 0 2px #000, 0 0 0 3px #999, 0 0 0 9px #fa0, 0 0 0 10px #666,
+    0 0 0 16px #fd0, 0 0 0 18px #000;
 }
-.sites a{
+.sites a {
   color: #4c5033;
   text-decoration: none;
 }
-.sites a:hover{
+.sites a:hover {
   color: #f0f7ce;
   letter-spacing: 5px;
   transition: 0.4s;
 }
-.subtitle{
+.subtitle {
   font-size: 15px;
-  color:rgba(84, 102, 64, 0.459);
+  color: rgba(84, 102, 64, 0.459);
+}
+#cardcontent {
+  font-family: "Hahmlet";
+}
+#cardauthor {
+  font-family: "Hahmlet";
+}
+#card {
+  background: rgba(95, 128, 77, 0.6);
+}
+#quote-page {
+  background-image: url("assets/quotebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-pic {
+  margin-top: 1%;
+  height: 30vh;
+  border-radius: 100%;
+}
+.profile-page {
+  background: rgba(160, 190, 125, 1);
+}
+.color-book {
+  background: rgba(46, 70, 32, 1);
+}
+.creds {
+  margin: 0 auto;
+  width: 20vw;
+  background: rgba(160, 190, 125, 0.2);
+}
+.guy {
+  font-size: 12px;
+}
+.thing {
+  font-size: 12px;
 }

@@ -7,7 +7,7 @@ class JournalCarousel extends React.Component {
   state = { redirect: null };
 
   handleDelete = (id) => {
-    axios.delete(`http://localhost:4000/api/journal${id}`).then(() => {
+    axios.delete(`http://localhost:4000/api/journal/${id}`).then(() => {
       this.props.deleteJournal(id);
     });
   };
@@ -22,15 +22,13 @@ class JournalCarousel extends React.Component {
           <h3 className="entry">entry:</h3>
           <p className="journal-entry">{journalObj.entry}</p>
           <p className="delete-button-wrapper">
-            <figure>
-              <img
-                src={`${process.env.PUBLIC_URL}/images/trash.png`}
-                className="delete-image"
-                onClick={() => this.handleDelete(journalObj._id)}
-                alt='trash'
-              />
-              <figcaption>delete entry</figcaption>
-            </figure>
+            <img
+              src={`${process.env.PUBLIC_URL}/images/trash.png`}
+              className="delete-image"
+              onClick={() => this.handleDelete(journalObj._id)}
+              alt="trash"
+            />
+            <p className="trash">delete entry</p>
           </p>
         </div>
       );
@@ -41,9 +39,6 @@ class JournalCarousel extends React.Component {
     if (this.state.redirect === true || !this.props.journalData) {
       return <Redirect to="/journal" />;
     }
-    // if (this.state.redirect) {
-    //   return <Redirect to={this.state.redirect} />;
-    // }
     const settings = {
       dots: true,
       infinite: true,

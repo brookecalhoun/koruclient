@@ -14,8 +14,7 @@ class MentalHealthResources extends React.Component {
     return (
       <div className="mentalhealth-page">
         <br />
-        <h1 className="ad-title">mental health resources </h1>{" "}
-        <br />
+        <h1 className="ad-title">mental health resources </h1> <br />
         <div className="subtitle">
           <p>national suicide prevention lifeline:</p>
           <h4>1-800-273-8255</h4>

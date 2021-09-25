@@ -16,12 +16,10 @@ class Homepage extends Component {
         <img
           className="homepage-title"
           src={`${process.env.PUBLIC_URL}/images/logo2.png`}
-          alt='homepage-title'
+          alt="homepage-title"
         />
-        <div className='ptag'>
-            <p className='tagline'>
-                unravel who you're meant to be.
-            </p>
+        <div className="ptag">
+          <p className="tagline">unravel who you're meant to be.</p>
         </div>
         <br />
         <br />

@@ -74,7 +74,7 @@ export default function QuoteCard() {
   }
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} id='card'>
       <CardContent>
         {loadingQuote ? (
           <div>
@@ -84,6 +84,7 @@ export default function QuoteCard() {
         ) : quote.content ? (
           <div>
             <Typography
+              id='cardcontent'
               variant="body2"
               color="textSecondary"
               component="p"
@@ -91,7 +92,7 @@ export default function QuoteCard() {
             >
               {quote.content}
             </Typography>
-            <Typography className={classes.author} color="textSecondary">
+            <Typography className={classes.author} color="textSecondary" id='cardauthor'>
               - {quote.author}
             </Typography>
           </div>

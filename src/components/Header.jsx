@@ -11,7 +11,7 @@ function Header() {
   if (isAuthenticated) {
     navItems = (
       <>
-      <Nav.Link href="/about">about</Nav.Link>
+        <Nav.Link href="/about">about</Nav.Link>
         <NavDropdown title="resources" id="basic-nav-dropdown">
           <NavDropdown.Item href="/mental-health-resources">
             mental health resources
@@ -20,14 +20,10 @@ function Header() {
             addiction resources
           </NavDropdown.Item>
         </NavDropdown>
-        {/* <Nav.Link href="/progress-tracker">progress tracker</Nav.Link> */}
-        {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
-        {/* <Nav.Link href="/things-to-do">things to do</Nav.Link> */}
+        <Nav.Link href="/draw">draw something</Nav.Link>
         <Nav.Link href="/journal">journal</Nav.Link>
         <NavDropdown title="profile/logout" id="basic-nav-dropdown">
-          <NavDropdown.Item href='/profile'>
-            profile
-          </NavDropdown.Item>
+          <NavDropdown.Item href="/profile">profile</NavDropdown.Item>
           <NavDropdown.Item
             onClick={() => logout({ returnTo: window.location.origin })}
           >
@@ -39,22 +35,20 @@ function Header() {
   } else {
     navItems = (
       <>
-      <Nav.Link href="/about">about</Nav.Link>
-      <NavDropdown title="resources" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/mental-health-resources">
-          mental health resources
-        </NavDropdown.Item>
-        <NavDropdown.Item href="/addiction-resources">
-          addiction resources
-        </NavDropdown.Item>
-      </NavDropdown>
-      {/* <Nav.Link href="/progress-tracker">progress tracker</Nav.Link> */}
-      {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
-      {/* <Nav.Link href="/things-to-do">things to do</Nav.Link> */}
-      <Nav.Link href="/journal">journal</Nav.Link>
-      <Nav.Link onClick={() => loginWithRedirect()}>login</Nav.Link>
-    </>
-    )
+        <Nav.Link href="/about">about</Nav.Link>
+        <NavDropdown title="resources" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/mental-health-resources">
+            mental health resources
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/addiction-resources">
+            addiction resources
+          </NavDropdown.Item>
+        </NavDropdown>
+        {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
+        {/* <Nav.Link href="/journal">journal</Nav.Link> */}
+        <Nav.Link onClick={() => loginWithRedirect()}>login</Nav.Link>
+      </>
+    );
   }
 
   return (
@@ -72,7 +66,7 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto"></Nav>
-              { navItems }
+              {navItems}
             </Navbar.Collapse>
           </Navbar>
         </span>

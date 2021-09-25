@@ -44,7 +44,7 @@ class JournalIndex extends Component {
           <br />
           <br />
           <br />
-            <h1 className="journal-title">journal</h1>
+          <h1 className="journal-title">journal</h1>
         </div>
         <br />
         <br />

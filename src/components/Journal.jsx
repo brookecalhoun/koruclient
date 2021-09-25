@@ -2,7 +2,8 @@ import React from "react";
 // import axios from "axios";
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
-import { useAuth0 } from "@auth0/auth0-react";
+import { useAuth0 } from '@auth0/auth0-react'
+
 // class Journal extends React.Component {
 //   constructor(props) {
 //     super(props);
@@ -13,7 +14,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 //     };
 //   }
 function Journal() {
-  const { getAccessTokenSilently } = useAuth0();
+  const { getAccessTokenSilently } = useAuth0()
   const [inputEntry, setInputEntry] = useState("");
   const [inputDate, setInputDate] = useState("");
   // handleChange = (event) => {
@@ -24,10 +25,9 @@ function Journal() {
   // };
   async function handleFormSubmit(event) {
     event.preventDefault();
-
-    const token = await getAccessTokenSilently();
-
-    console.log(token);
+    const token = await getAccessTokenSilently()
+    
+    console.log(token)
 
     console.log("form was submitted");
 

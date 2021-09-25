@@ -1,12 +1,15 @@
 import React from "react";
 import Carousel from "./carousel/Carousel";
+import Fade from "react-reveal/Fade";
 
 class About extends React.Component {
   render() {
     return (
       <div className="about-page">
         <div className="about-bg"></div>
+        <Fade left>
         <h1 className="about">what is the Koru? </h1>
+        </Fade>
         <div className="about-div">
           <p className="about-description">
             In Maori culture, the Koru is a spiral resembling an unfurling

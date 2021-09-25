@@ -21,7 +21,7 @@ const Profile = () => {
       .catch(err => {
         console.log(err)
       })
-  })
+  },[user])
 
   if (isLoading) {
     return <div>Loading ...</div>;

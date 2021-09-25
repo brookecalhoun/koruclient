@@ -67,8 +67,9 @@
   height: 50vh;
 }
 .about {
-  font-size: 25vh;
+  font-size: 18vh;
   color: #f0f7ce;
+  letter-spacing: 5px;
 }
 .life-component {
   margin-top: 5vh;
@@ -464,6 +465,7 @@
 .submit-button:hover {
   background: rgba(160, 190, 125, 1);
   cursor: pointer;
+  transition: 0.2s;
 }
 .ad-populations{
   text-align: left;
@@ -518,6 +520,7 @@
 .ad-lgbt:hover{
   background: #f0f7ce;
   letter-spacing: 50px;
+  transition: 0.5s;
 }
 .lgbt-link{
   color:rgba(46, 70, 32, 0.5);
@@ -534,6 +537,7 @@
 .ad-senior:hover{
   background: #f0f7ce;
   letter-spacing: 50px;
+  transition: 0.5s;
 }
 .senior-link{
   color:rgba(46, 70, 32, 0.5);
@@ -550,6 +554,7 @@
 .ad-teen:hover{
   background: #f0f7ce;
   letter-spacing: 50px;
+  transition: 0.5s;
 }
 .teen-link{
   color:rgba(46, 70, 32, 0.5);
@@ -565,6 +570,7 @@
 }
 .ad-veterans:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 50px;
 }
 .veteran-link{
@@ -582,6 +588,7 @@
 .ad-women:hover{
   background: #f0f7ce;
   letter-spacing: 50px;
+  transition: 0.5s;
 }
 .women-link{
   color:rgba(46, 70, 32, 0.5);
@@ -598,6 +605,7 @@
 }
 .sup-1:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-1{
@@ -614,6 +622,7 @@
 }
 .sup-2:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-2{
@@ -630,6 +639,7 @@
 }
 .sup-3:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-3{
@@ -646,6 +656,7 @@
 }
 .sup-4:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-4{
@@ -662,6 +673,7 @@
 }
 .sup-5:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-5{
@@ -678,6 +690,7 @@
 }
 .sup-6:hover{
   background: #f0f7ce;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .support-link-6{
@@ -693,6 +706,7 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-1:hover{
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .alcohol-title{
@@ -708,6 +722,7 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-2:hover{
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .cocaine-title{
@@ -723,6 +738,7 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-3:hover{
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .marijuana-title{
@@ -738,6 +754,7 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-4:hover{
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .methamphetamine-title{
@@ -753,6 +770,8 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-5:hover{
+  transition: 0.5s;
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .alink-6{
@@ -762,6 +781,7 @@
   color:rgba(46, 70, 32, 0.5);
 }
 .alink-6:hover{
+  transition: 0.5s;
   letter-spacing: 10px;
 }
 .opiod-title{
@@ -906,9 +926,19 @@
   position: relative;
 } 
 .thebody:hover .thebody-link {
-  opacity: 0.3;
+  border: 10px solid #f0f7ce;
+  transition: 0.5s;
 }
-.thebody:hover .thebody-name {
-  opacity: 1;
-} 
+.change-brain:hover .change-brain-link {
+  border: 10px solid #f0f7ce;
+  transition: 0.5s;
+}
+.hope:hover .hope-link {
+  border: 10px solid #f0f7ce;
+  transition: 0.5s;
+}
+.russell:hover .russell-link {
+  border: 10px solid #f0f7ce;
+  transition: 0.5s;
+}
 

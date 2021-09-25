@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Fade from "react-reveal/Fade";
 
 class Journal extends React.Component {
   constructor(props) {
@@ -52,72 +53,88 @@ class Journal extends React.Component {
           <br />
           <br />
           <br />
+          <Fade left>
             <p className="prompt1">
               what does unconditional love look like for you? have you ever felt
               it?
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade right>
             <p className="prompt2">
               dear past me... dear present me... dear future me...
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade left>
             <p className="prompt3">
               write a letter to 1 of the 5 people you love the most, even if you
               don’t deliver it.
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade right>
             <p className="prompt4">
               what have I learned about myself during the recovery process?
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade left>
             <p className="prompt5">
               write down the words you most want to hear someone say to you
               right now.
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade right>
             <p className="prompt6">
               write a goodbye letter to something in your life you want to
               eliminate during your recovery process.
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade left>
             <p className="prompt7">
               what are the things in your life that make you smile?
             </p>
+          </Fade>
           <br />
           <br />
           <br />
           <br />
           <br />
+          <Fade right>
             <p className="prompt8">
               for more prompts click{" "}
               <a href="https://myrealrecovery.com/31-addiction-recovery-journal-prompts-to-use-during-your-healing-process/">
                 here
               </a>
             </p>
+          </Fade>
           <br />
           <br />
           <br />

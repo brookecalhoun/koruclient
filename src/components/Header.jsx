@@ -11,6 +11,7 @@ function Header() {
   if (isAuthenticated) {
     navItems = (
       <>
+      <Nav.Link href="/about">about</Nav.Link>
         <NavDropdown title="resources" id="basic-nav-dropdown">
           <NavDropdown.Item href="/mental-health-resources">
             mental health resources
@@ -19,7 +20,6 @@ function Header() {
             addiction resources
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/about">about</Nav.Link>
         {/* <Nav.Link href="/progress-tracker">progress tracker</Nav.Link> */}
         {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
         {/* <Nav.Link href="/things-to-do">things to do</Nav.Link> */}
@@ -39,6 +39,7 @@ function Header() {
   } else {
     navItems = (
       <>
+      <Nav.Link href="/about">about</Nav.Link>
       <NavDropdown title="resources" id="basic-nav-dropdown">
         <NavDropdown.Item href="/mental-health-resources">
           mental health resources
@@ -47,7 +48,6 @@ function Header() {
           addiction resources
         </NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/about">about</Nav.Link>
       {/* <Nav.Link href="/progress-tracker">progress tracker</Nav.Link> */}
       {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
       {/* <Nav.Link href="/things-to-do">things to do</Nav.Link> */}

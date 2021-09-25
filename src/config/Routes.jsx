@@ -8,9 +8,9 @@ import MentalHealthResources from '../components/MentalHealthResources';
 import ProgressTracker from '../components/Progress';
 import Activity from '../components/Activity';
 import Encouragement from '../components/Encouragement';
-import Signup from '../components/authentication/Signup'
-import Login from '../components/authentication/Login'
 import JournalIndex from '../components/JournalIndex';
+import Profile from '../components/Profile';
+import ProtectedRoute from '../components/authentication/ProtectedRoute'
 
 
 function Routes(){
@@ -32,11 +32,9 @@ function Routes(){
         
         <Route path='/things-to-do' component={Activity} />
 
+        <ProtectedRoute path='/profile' component={Profile} />
+
         <Route path='/encouragement' component={Encouragement} />
-
-        <Route path='/signup' render={(props) => <Signup {...props} /> } />
-
-        <Route path ='/login' render={(props) => <Login {...props} /> } />
 
         <Route path ='/journal' render={(props) => <JournalIndex {...props} /> } />
 

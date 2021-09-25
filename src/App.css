@@ -12,8 +12,13 @@
 }
 .header {
   background: #f0f7ce;
-  display: inline;
   font-size: 12px;
+}
+.inlineheader a{
+  color:rgba(46, 70, 32, 0.7);
+}
+.inlineheader a:hover{
+  color:rgba(46, 70, 32, 1);
 }
 .homepage {
   min-height: 100vh;
@@ -941,4 +946,37 @@
   border: 10px solid #f0f7ce;
   transition: 0.5s;
 }
-
+.sites{
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  overflow: scroll;
+  margin-top: 5%;
+  padding-top: 35vh;
+  padding-bottom: 10vh;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 
+	0 0 0 2px #000,
+	0 0 0 3px #999,
+	0 0 0 9px #fa0,
+	0 0 0 10px #666,
+	0 0 0 16px #fd0,
+	0 0 0 18px #000;
+}
+.sites a{
+  color: #4c5033;
+  text-decoration: none;
+}
+.sites a:hover{
+  color: #f0f7ce;
+  letter-spacing: 5px;
+  transition: 0.4s;
+}
+.subtitle{
+  font-size: 15px;
+  color:rgba(84, 102, 64, 0.459);
+}

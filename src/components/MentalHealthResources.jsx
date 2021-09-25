@@ -14,7 +14,12 @@ class MentalHealthResources extends React.Component {
     return (
       <div className="mentalhealth-page">
         <br />
-        <h1 className="ad-title">mental health resources </h1>
+        <h1 className="ad-title">mental health resources </h1>{" "}
+        <br />
+        <div className="subtitle">
+          <p>national suicide prevention lifeline:</p>
+          <h4>1-800-273-8255</h4>
+        </div>
         <br />
         <Tabs
           className="tab-color"
@@ -33,9 +38,9 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/mindshift.png`}
                     className="mindshift-link"
-                    alt='mindshift'
+                    alt="mindshift"
                   />
-                <p className='mindshift-name'>mindshift</p>
+                  <p className="mindshift-name">mindshift</p>
                 </a>{" "}
               </h3>{" "}
               <h3 className="calm">
@@ -47,9 +52,9 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/calm.png`}
                     className="calm-link"
-                    alt='calm'
+                    alt="calm"
                   />
-                  <p className='calm-name'>calm</p>
+                  <p className="calm-name">calm</p>
                 </a>{" "}
               </h3>{" "}
               <h3 className="betterhelp">
@@ -60,9 +65,9 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/betterhelp.png`}
                     className="betterhelp-link"
-                    alt='betterhelp'
+                    alt="betterhelp"
                   />
-                  <p className='betterhelp-name'>betterhelp</p>
+                  <p className="betterhelp-name">betterhelp</p>
                 </a>{" "}
               </h3>{" "}
               <h3 className="headspace">
@@ -73,9 +78,9 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/headspace.png`}
                     className="headspace-link"
-                    alt='headspace'
+                    alt="headspace"
                   />
-                  <p className='headspace-name'>headspace</p>
+                  <p className="headspace-name">headspace</p>
                 </a>{" "}
               </h3>{" "}
               <h3 className="nomo">
@@ -86,9 +91,9 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/nomo.png`}
                     className="nomo-link"
-                    alt='nomo'
+                    alt="nomo"
                   />
-                  <p className='nomo-name'>nomo</p>
+                  <p className="nomo-name">nomo</p>
                 </a>{" "}
               </h3>{" "}
               <h3 className="talkspace">
@@ -99,10 +104,10 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/talkspace.png`}
                     className="talkspace-link"
-                    alt='talkspace'
+                    alt="talkspace"
                   />
                 </a>{" "}
-                <p className='talkspace-name'>talkspace</p>
+                <p className="talkspace-name">talkspace</p>
               </h3>{" "}
             </div>
           </Tab>
@@ -117,11 +122,11 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/thebodykeepsthescore.jpeg`}
                     className="thebody-link"
-                    alt='thebody'
+                    alt="thebody"
                   />
                 </a>{" "}
               </h3>{" "}
-              /* <h3 className="change-brain">
+              <h3 className="change-brain">
                 <a
                   className="change-brain"
                   href="https://www.amazon.com/Change-Your-Brain-Revised-Expanded-ebook/dp/B01208WMYQ/ref=sr_1_3?dchild=1&keywords=change+your+brain+change+your+life&qid=1632531802&sr=8-3"
@@ -130,11 +135,11 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/changebrain.jpeg`}
                     className="change-brain-link"
-                    alt='change-brain'
+                    alt="change-brain"
                   />
                 </a>{" "}
               </h3>{" "}
-              /* <h3 className="hope">
+              <h3 className="hope">
                 <a
                   href="https://www.amazon.com/Hope-Help-Your-Nerves-Anxiety-ebook/dp/B009PFN4IQ/ref=sr_1_1?crid=2AEQV2HE3Q99L&dchild=1&keywords=hope+and+health+for+your+nerves+end+anxiety+now&qid=1632531998&sprefix=hope+and+health+for%2Caps%2C207&sr=8-1"
                   style={{ textDecoration: "none " }}
@@ -142,7 +147,7 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/hope.jpg`}
                     className="hope-link"
-                    alt='hope'
+                    alt="hope"
                   />
                 </a>{" "}
               </h3>{" "}
@@ -154,17 +159,73 @@ class MentalHealthResources extends React.Component {
                   <img
                     src={`${process.env.PUBLIC_URL}/images/russell.jpeg`}
                     className="russell-link"
-                    alt='russell'
+                    alt="russell"
                   />
                 </a>{" "}
               </h3>{" "}
             </div>
           </Tab>
-
-
-
-
-         
+          <Tab className="site-tab" eventKey="site" title="websites">
+            <div className="sites">
+              <br />
+              <p>scroll for more</p>
+              <p>
+                <a href="https://www.nami.org/">
+                  National Alliance on Mental Illness (NAMI)
+                </a>
+              </p>
+              <p>
+                <a href="http://www.mhresources.org/">
+                  Mental Health Resources (MHR)
+                </a>
+              </p>
+              <p>
+                <a href="http://www.psychiatry.org/mental-health/">
+                  American Psychiaty Association
+                </a>
+              </p>
+              <p>
+                <a href="https://medlineplus.gov/mentalhealth.html">
+                  MedlinePlus - Mental Health
+                </a>
+              </p>
+              <p>
+                <a href="http://www.who.int/mental_health/evidence/atlas/en/">
+                  World Health Organization (WHO) Project Atlas
+                </a>
+              </p>
+              <p>
+                <a href="http://www.mentalhealth.gov/">
+                  U.S. Department of Health & Human Services — Mental Health
+                </a>
+              </p>
+              <p>
+                <a href="http://www.thetrevorproject.org/">
+                  The Trevor Project
+                </a>
+              </p>
+              <p>
+                <a href="http://www.mentalhealth.va.gov/">
+                  U.S Department of Veterans Affairs (VA) — Mental Health
+                </a>
+              </p>
+              <p>
+                <a href="https://screening.mentalhealthscreening.org/Military_NDSD">
+                  MindWise — Military and Family Screenings
+                </a>
+              </p>
+              <p>
+                <a href="https://www.ncoa.org/center-for-healthy-aging/behavioral-health/">
+                  National Council on Aging — Behavioral Health
+                </a>
+              </p>
+              <p>
+                <a href="https://www.womenshealth.gov/mental-health/resources/">
+                  Office on Women’s Health — Mental Health Resources{" "}
+                </a>
+              </p>
+            </div>
+          </Tab>
         </Tabs>
       </div>
     );

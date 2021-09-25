@@ -14,7 +14,7 @@ class AddictionResources extends React.Component {
     return (
       <div className="addiction-page">
         <br />
-        <h1 className="ad-title">Addiction Resources </h1>
+        <h1 className="ad-title">addiction resources </h1>
         <br />
         <Tabs
           className="tab-color"
@@ -136,15 +136,6 @@ class AddictionResources extends React.Component {
                     style={{ textDecoration: "none " }}
                   >
                     ☞ narcotics anonymous ☜
-                  </a>
-                </h3>
-                <h3 className="opiod-3">
-                  <a
-                    className="alink-6"
-                    href="https://www.neveraloneclub.org/"
-                    style={{ textDecoration: "none " }}
-                  >
-                    ☞ never alone club ☜
                   </a>
                 </h3>
               </div>

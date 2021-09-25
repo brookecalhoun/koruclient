@@ -21,7 +21,7 @@ class Journal extends React.Component {
     event.preventDefault();
     console.log("form was submitted");
     axios
-      .post(`${process.env.REACT_APP_SERVERURL}/api/journal`, {
+      .post(`http://localhost:4000/api/journal`, {
         entry: this.state.inputEntry,
         date: this.state.inputDate,
       })

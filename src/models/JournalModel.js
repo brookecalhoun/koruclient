@@ -1,4 +1,4 @@
-const url = `${process.env.REACT_APP_SERVERURL}/api/journal`;
+const url = `http://localhost:4000/api/journal`;
 //store logic to make api calls (fetch/axios here)
 class JournalModel {
     static all() {

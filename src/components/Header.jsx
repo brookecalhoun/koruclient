@@ -45,8 +45,8 @@ function Header() {
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/draw">draw something</Nav.Link>
-        <Nav.Link href="/journal">journal</Nav.Link>
-        <Nav.Link onClick={() => loginWithRedirect()}>login</Nav.Link>
+        {/* <Nav.Link href="/journal">journal</Nav.Link> */}
+        <Nav.Link onClick={() => loginWithRedirect()} >login</Nav.Link>
       </>
     );
   }

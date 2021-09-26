@@ -44,8 +44,8 @@ function Header() {
             addiction resources
           </NavDropdown.Item>
         </NavDropdown>
-        {/* <Nav.Link href="/encouragement">encouragement</Nav.Link> */}
-        {/* <Nav.Link href="/journal">journal</Nav.Link> */}
+        <Nav.Link href="/draw">draw something</Nav.Link>
+        <Nav.Link href="/journal">journal</Nav.Link>
         <Nav.Link onClick={() => loginWithRedirect()}>login</Nav.Link>
       </>
     );

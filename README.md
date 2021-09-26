@@ -1,7 +1,7 @@
 <p align="center">
   <img src="public/images/logo-modified.png" />
 </p>
-# Koru
+
 Koru is an app that ties in addiction with mental health. Koru's interactivity includes authentication, journaling that can be saved, a virtual coloring book, and a random quote generator. Koru also offers various resources for addiction and mental health.
 
 ### Dependencies

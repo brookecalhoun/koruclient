@@ -47,15 +47,16 @@ class JournalIndex extends Component {
           <h1 className="journal-title">journal</h1>
         </div>
         <br />
+        <div class="add-container">
+          <Link to="/create" className="add-center">
+            <div class="btn add-btn">
+              <span>add entry</span>
+            </div>
+          </Link>
+        </div>
         <br />
         <div className="entry-form">
-          <div class="add-container">
-            <Link to="/create" className="add-center">
-              <div class="btn add-btn">
-                <span>add entry</span>
-              </div>
-            </Link>
-          </div>
+          <br />
           <div className="carousel-container">
             <JournalCarousel
               journalData={this.state.journalData}

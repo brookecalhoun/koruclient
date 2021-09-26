@@ -148,7 +148,7 @@ class Journal extends React.Component {
             <br />
             <form onSubmit={this.handleFormSubmit}>
               <div className="input-date">
-                <p>date:</p> &nbsp;
+                <p className='input-date-name'>date:</p> &nbsp; &nbsp;
                 <input
                   className="input-date-field"
                   type="text"
@@ -157,7 +157,7 @@ class Journal extends React.Component {
                 />
               </div>
               <div className="input-entry">
-                <p>entry:</p>
+                <p className='input-entry-name'>entry:</p>
                 <textarea
                   name="text"
                   wrap="soft"

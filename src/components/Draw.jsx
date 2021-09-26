@@ -3,6 +3,7 @@ const styles = {
   canvas: {
     border: "1px solid #333",
     margin: "20px 0px",
+    borderRadius: "100px",
   },
 
   maindiv: {
@@ -12,6 +13,7 @@ const styles = {
   },
 
   button: {
+    borderRadius: "100px",
     border: "0px",
     margin: "1px",
     height: "50px",
@@ -25,7 +27,7 @@ const styles = {
     green: { backgroundColor: "green" },
     blue: { backgroundColor: "blue" },
     purple: { backgroundColor: "purple" },
-    black: { backgroundColor: "black" },
+    black: { backgroundColor: "black", color: "white" },
   },
 };
 

@@ -33,7 +33,11 @@ export default function Encouragement() {
         className={classes.root}
       >
         <Grid item md={8} sm={8} xs={10}>
-          <Card />
+          <p className='quote-generator'>hit refresh and copy your favorite quote</p>
+          <div className="light-green">
+            <br />
+            <Card />
+          </div>
         </Grid>
       </Grid>
     </div>

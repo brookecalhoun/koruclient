@@ -15,16 +15,18 @@ export default function Carousel() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <Life />
-      </div>
-      <div>
-        <Growth />
-      </div>
-      <div>
-        <Movement />
-      </div>
-    </Slider>
+    <div className="whole-carousel">
+      <Slider {...settings}>
+        <div>
+          <Life />
+        </div>
+        <div>
+          <Growth />
+        </div>
+        <div>
+          <Movement />
+        </div>
+      </Slider>
+    </div>
   );
 }

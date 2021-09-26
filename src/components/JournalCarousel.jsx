@@ -20,8 +20,10 @@ class JournalCarousel extends React.Component {
             <p className="journal-date">{journalObj.date}</p>
           </div>
           <h3 className="entry">entry:</h3>
+          <br />
           <p className="journal-entry">{journalObj.entry}</p>
-          <p className="delete-button-wrapper">
+            <br />
+          <div className="delete-button-wrapper">
             <img
               src={`${process.env.PUBLIC_URL}/images/trash.png`}
               className="delete-image"
@@ -29,7 +31,7 @@ class JournalCarousel extends React.Component {
               alt="trash"
             />
             <p className="trash">delete entry</p>
-          </p>
+          </div>
         </div>
       );
     });

@@ -49,7 +49,7 @@ class Journal extends React.Component {
         <br />
         <div className="prompts">
           <div className="cloud"></div>
-          <h2 className="prompts-title">journaling prompts for you</h2>
+          <h2 className="prompts-title">journaling prompts </h2>
           <br />
           <br />
           <br />

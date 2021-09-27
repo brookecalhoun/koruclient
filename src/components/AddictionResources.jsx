@@ -16,6 +16,9 @@ class AddictionResources extends React.Component {
         <br />
         <h1 className="ad-title">addiction resources </h1>
         <br />
+              <h3 className='samhsa'>SAMHSA national helpline:</h3>
+              <p className='hotline'>1-800-662-HELP(4357)</p>{" "}
+        <br />
         <Tabs
           className="tab-color"
           id="controlled-tab-example"
@@ -147,9 +150,7 @@ class AddictionResources extends React.Component {
             title="other sources of support"
           >
             <div className="ad-support">
-              <br />
-              <h3>SAMHSA national helpline:</h3>
-              <p>1-800-662-HELP(4357)</p>{" "}
+
               <h3 className="sup-1">
                 {" "}
                 <a

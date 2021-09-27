@@ -16,8 +16,8 @@ class MentalHealthResources extends React.Component {
         <br />
         <h1 className="mr-title">mental health resources </h1> <br />
         <div className="subtitle">
-          <p>national suicide prevention lifeline:</p>
-          <h4>1-800-273-8255</h4>
+          <p className='nspl'>national suicide prevention lifeline:</p>
+          <h4 className='hotline'>1-800-273-8255</h4>
         </div>
         <br />
         <Tabs

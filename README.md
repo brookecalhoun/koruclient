@@ -2,6 +2,7 @@
   <img src="public/images/logo-modified.png" />
 </p>
 
+# What is Koru?
 Koru is an app that ties in addiction with mental health. Koru's interactivity includes authentication, journaling that can be saved, a virtual coloring book, and a random quote generator. Koru also offers various resources for addiction and mental health.
 
 ### Dependencies
@@ -23,3 +24,4 @@ Koru is an app that ties in addiction with mental health. Koru's interactivity i
 
 
 ### [Wireframe](https://www.figma.com/file/QybiXaKuT7ix7Atqu3cXCe/koru?node-id=0%3A1)
+### [Trello](https://trello.com/invite/b/7SjQMn4X/61044a757284abc2e9d470a3060ca2ac/koru)

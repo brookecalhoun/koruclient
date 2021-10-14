@@ -21,7 +21,7 @@ class Journal extends React.Component {
     event.preventDefault();
     console.log("form was submitted");
     axios
-      .post(`http://localhost:4000/api/journal`, {
+      .post("https://koru-server.herokuapp.com/api/journal", {
         entry: this.state.inputEntry,
         date: this.state.inputDate,
       })

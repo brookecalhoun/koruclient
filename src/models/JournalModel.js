@@ -1,4 +1,4 @@
-const url = 'https://koru-server.herokuapp.com/api/journal';
+const url = 'https://koruhelp.netlify.app/api/journal';
 //store logic to make api calls (fetch/axios here)
 class JournalModel {
     static all() {
